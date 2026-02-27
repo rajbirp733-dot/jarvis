@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+#chat {
+    width: 400px;
+    height: 300px;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+    margin-bottom: 10px;
+}
